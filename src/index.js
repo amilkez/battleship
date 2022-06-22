@@ -1,1 +1,3 @@
-import './style.css';
+const sayHello = () => 'hello';
+
+export default sayHello;
