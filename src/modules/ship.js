@@ -1,4 +1,4 @@
-const shipFactory = (length) => {
+const createShip = (length) => {
   const hitsPositions = [];
 
   const hit = (position) => {
@@ -15,4 +15,4 @@ const shipFactory = (length) => {
   return { hit, isSunk, hitsPositions };
 };
 
-export { shipFactory };
+export { createShip };

@@ -1,9 +1,9 @@
-import { shipFactory } from '../src/modules/ship';
+import { createShip } from '../src/modules/ship';
 
 describe('Ship Factory', () => {
   let destroyer;
   beforeEach(() => {
-    destroyer = shipFactory(2);
+    destroyer = createShip(2);
   });
 
   it('Expects destroyer to have not sunk', () => {
